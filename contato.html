@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="conteiner">
+        <nav class="menu">
+            <ul>
+                <li><a href="sobre.html">Sobre a clínica</a></li>
+                <li><a href="horario.html">Horário de Atendimento</a></li>
+                <li><a href="index.html">Cliente</a></li>
+            </ul>
+        </nav>
+        
+        <header class="top">
+            <img src="../img/clinico.png" alt="foto de um medico" width="100%" height="100%">
+        </header>
+
+        <main class="main">
+            <form action="#">
+            <div class="mil">
+            <label for="num">Numero:
+              <input type="number" id="num">
+            </label><br>
+            <label for="map">Cidade:
+                <select id="map">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </select>
+            </label><br>
+            <label for="tex">Nome:
+                <input type="text" id="tex">
+            </label><br>
+            <label for="ema">E-mail:
+                <input type="email" id="ema">
+            </label><br>
+            <label for="are">Mensagem:
+                <textarea id="are" cols="30" rows="7"></textarea>
+            </label>
+            <span><input type="submit" value="Enviar" class="botao"><input type="reset" value="Limpa" class="botao"></span>
+        </div></form>
+        </main>
+
+        <footer class="fim">
+            <span class="linha">Numero do Hospital: <a href="#">(99) 9999-9999</a></span>
+            <span class="linha">Especializado: cirurgia</span>
+            <span class="linha">Nome do medico: Miquel</span>
+            <span class="linha">Hospital: santa casa</span>
+        </footer>
+    </div>
+    
+</body>
+</html>
